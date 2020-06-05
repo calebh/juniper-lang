@@ -3,6 +3,7 @@
     "displayName": "Juniper Lang",
     "description": "Syntax highlighting for Juniper lang",
     "version": "0.0.1",
+    "publisher": "calebh",
     "engines": {
         "vscode": "^1.45.0"
     },
