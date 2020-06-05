@@ -1,0 +1,25 @@
+{
+    "name": "juniper-lang",
+    "displayName": "Juniper Lang",
+    "description": "Syntax highlighting for Juniper lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "juniper",
+            "aliases": ["Juniper", "juniper"],
+            "extensions": [".jun"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "juniper",
+            "scopeName": "source.juniper",
+            "path": "./syntaxes/juniper.tmLanguage.json"
+        }]
+    }
+}
