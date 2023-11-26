@@ -2,7 +2,7 @@
     "name": "juniper-lang",
     "displayName": "Juniper Lang",
     "description": "Syntax highlighting for Juniper lang",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "publisher": "calebh",
     "license": "MIT",
     "repository": {
@@ -16,16 +16,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "juniper",
-            "aliases": ["Juniper", "juniper"],
-            "extensions": [".jun"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "juniper",
-            "scopeName": "source.juniper",
-            "path": "./syntaxes/juniper.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "juniper",
+                "aliases": [
+                    "Juniper",
+                    "juniper"
+                ],
+                "extensions": [
+                    ".jun"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "juniper",
+                "scopeName": "source.juniper",
+                "path": "./syntaxes/juniper.tmLanguage.json"
+            }
+        ]
     }
 }
