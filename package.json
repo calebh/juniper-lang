@@ -2,7 +2,7 @@
     "name": "juniper-lang",
     "displayName": "Juniper Lang",
     "description": "Syntax highlighting for Juniper lang",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "calebh",
     "license": "MIT",
     "repository": {
